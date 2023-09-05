@@ -9,7 +9,6 @@ find_package(OpenGL REQUIRED)
 add_executable(openGL main.c glad.c glad.h)
 
 target_link_libraries(openGL
-        glut
         glfw
         GLEW
         OpenGL::GL
